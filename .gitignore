@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Conda
+.conda/
+
+# UDB output directories
+udb_output*/
+dendrimer_output*/
+*.pdb
+*.psf
+*.prmtop
+*.inpcrd
+*.mol2
+*.sdf
+*.xyz
+*.namd
+*.dcd
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+name: udb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - tk
+  - openbabel          # optional — format conversion (PDB/MOL2/SDF)
+  - pip
