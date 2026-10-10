@@ -1,6 +1,6 @@
 # Universal Dendrimer Builder (UDB)
 
-**Version 1.0.0** · Python desktop application (Tkinter) · Linux
+**Version 1.0.0** · Python desktop application (Tkinter) · Linux · [MIT License](LICENSE)
 
 UDB builds, force-field parameterizes and sets up molecular-dynamics simulations of
 dendrimer nanostructures. It covers nine chemical families from generation G1 to G10
@@ -36,6 +36,8 @@ and drives AmberTools25 (GAFF2) and NAMD 3.x for you.
 | `requirements.txt` | Python packages. |
 | `CHANGELOG.md` | What changed in each version. |
 | `CITATION.cff` | How to cite UDB. |
+| `LICENSE` | MIT License. |
+| `SECURITY.md` | How to report a security problem. |
 
 ## Requirements
 
@@ -118,6 +120,12 @@ A paper describing UDB is in preparation. Until it is published, please cite the
   note    = {Citation pending peer-reviewed publication}
 }
 ```
+
+## License
+
+UDB is released under the [MIT License](LICENSE): you may use, modify and share it,
+including commercially, as long as the copyright notice is kept. AmberTools, NAMD and
+the other programs UDB calls are separate software under their own licences.
 
 ## Author
 

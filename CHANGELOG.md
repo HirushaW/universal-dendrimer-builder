@@ -42,6 +42,7 @@ single GUI application, after several internal development versions.
   Custom, generations G1–G10.
 
 ### Also in this release
+- Released as open source under the MIT License, with a security policy (`SECURITY.md`).
 - Companion parameterization GUI (`dendrimer_param_gui_v2.py`) for AMBER, NAMD/CHARMM
   and GROMACS topologies.
 - Example structures for eight families (G1–G6) in `examples/Structures.tar.gz`.
