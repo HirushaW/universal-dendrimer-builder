@@ -5,6 +5,7 @@ title: "Universal Dendrimer Builder (UDB): An Open-Source Python Tool for Buildi
 authors:
   - family-names: Walgampaya
     given-names: Hirusha
+license: MIT
 version: 1.0.0
 date-released: 2026-10-10
 repository-code: "https://github.com/HirushaW/universal-dendrimer-builder"
