@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Universal Dendrimer Builder, please cite it as below."
+type: software
+title: "Universal Dendrimer Builder (UDB): An Open-Source Python Tool for Building, Parameterizing, and Simulating Dendrimer Nanostructures"
+authors:
+  - family-names: Walgampaya
+    given-names: Hirusha
+version: 1.0.0
+date-released: 2026-10-10
+repository-code: "https://github.com/HirushaW/universal-dendrimer-builder"
+url: "https://universal-dendrimer-builder-showcas.vercel.app"
+keywords:
+  - dendrimer
+  - molecular modelling
+  - molecular dynamics
+  - AMBER
+  - NAMD
+  - GAFF2
+  - nanoscience
