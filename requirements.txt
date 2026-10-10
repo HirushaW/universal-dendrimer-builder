@@ -1,0 +1,6 @@
+# Python packages for Universal Dendrimer Builder.
+# AmberTools25 and NAMD are installed separately (see README.md).
+# Tkinter comes with Python; on Ubuntu/Debian: sudo apt-get install python3-tk
+numpy
+scipy
+matplotlib
