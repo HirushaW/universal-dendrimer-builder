@@ -1697,6 +1697,8 @@ echo "  {inc}"
                     text="▶  Convert mol2" if self.ext_mode.get()=="A" else "▶  Extract mol2"))
                 self.after(0, lambda: self.ext_stop_btn.config(state="disabled"))
 
+        threading.Thread(target=_worker, daemon=True).start()
+
     def _check_env_silent(self):
         """Quick check on startup to update badge"""
         tools=["antechamber","parmchk2","tleap"]
