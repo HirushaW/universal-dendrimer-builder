@@ -6,6 +6,8 @@ Versioning: [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-11
+
 ### Fixed
 - Parameterization GUI, Extract mol2 tab: the conversion worker thread was never
   started, so **Convert mol2 / Extract mol2** did nothing. It now runs.
@@ -58,5 +60,6 @@ single GUI application, after several internal development versions.
 - The NAMD binary is found from `UDB_NAMD_BIN`, then `namd3` on `PATH`, then
   `/opt/namd/...`; it can still be changed in the NAMD tab.
 
-[Unreleased]: https://github.com/HirushaW/universal-dendrimer-builder/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/HirushaW/universal-dendrimer-builder/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/HirushaW/universal-dendrimer-builder/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/HirushaW/universal-dendrimer-builder/releases/tag/v1.0.0

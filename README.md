@@ -1,6 +1,6 @@
 # Universal Dendrimer Builder (UDB)
 
-**Version 1.0.0** · Python desktop application (Tkinter) · Linux · [MIT License](LICENSE)
+**Version 1.0.1** · Python desktop application (Tkinter) · Linux · [MIT License](LICENSE)
 
 UDB builds, force-field parameterizes and sets up molecular-dynamics simulations of
 dendrimer nanostructures. It covers nine chemical families from generation G1 to G10

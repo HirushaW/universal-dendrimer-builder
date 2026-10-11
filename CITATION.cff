@@ -6,8 +6,8 @@ authors:
   - family-names: Walgampaya
     given-names: Hirusha
 license: MIT
-version: 1.0.0
-date-released: 2026-10-10
+version: 1.0.1
+date-released: 2026-10-11
 repository-code: "https://github.com/HirushaW/universal-dendrimer-builder"
 url: "https://universal-dendrimer-builder-showcas.vercel.app"
 keywords:
