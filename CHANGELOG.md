@@ -6,6 +6,15 @@ Versioning: [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 
+### Fixed
+- Parameterization GUI, Extract mol2 tab: the conversion worker thread was never
+  started, so **Convert mol2 / Extract mol2** did nothing. It now runs.
+
+### Documentation
+- README links the new companion repository,
+  [UDB Characterization Tools](https://github.com/HirushaW/UDB-Characterization)
+  (UDB Characteriser and the parameterization / MOL2 converter).
+
 ## [1.0.0] - 2026-10-10
 
 First public stable release. It consolidates the placement engine, force-field
