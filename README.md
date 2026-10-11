@@ -31,7 +31,7 @@ and drives AmberTools25 (GAFF2) and NAMD 3.x for you.
 | Path | What it is |
 |---|---|
 | `universal_dendrimer_builder_v1_0.py` | The UDB application (build, parameterize, simulate). |
-| `dendrimer_param_gui_v2.py` | Companion parameterization GUI: converts finished structures to AMBER, NAMD/CHARMM and GROMACS topologies and validates atom types, charges and penalty scores. |
+| `dendrimer_param_gui_v2.py` | Companion parameterization GUI: Sybyl → GAFF2 typing of core and monomer fragments, AMBER, NAMD/CHARMM and GROMACS topologies with validation, and GAFF2 → Sybyl MOL2 conversion of finished dendrimers. Also maintained in [UDB Characterization Tools](https://github.com/HirushaW/UDB-Characterization). |
 | `examples/Structures.tar.gz` | Example UDB builds for eight families (G1–G6) with AMBER/NAMD inputs, minimisation logs and build logs. |
 | `requirements.txt` | Python packages. |
 | `CHANGELOG.md` | What changed in each version. |
@@ -92,6 +92,19 @@ tar xzf examples/Structures.tar.gz
 
 The [User Manual](https://universal-dendrimer-builder-showcas.vercel.app/tools/udb/manual/)
 walks through every tab and parameter.
+
+## Companion tools
+
+[**UDB Characterization Tools**](https://github.com/HirushaW/UDB-Characterization) is a
+separate repository with two programs that work alongside UDB:
+
+| Tool | What it does |
+|---|---|
+| **UDB Characteriser** (`udb_characterizer.py`) | Characterises UDB structures after building, minimisation or MD. It reports 117 properties (size, shape, SASA, volume, Kirkwood–Riseman hydrodynamics, back-folding, charge) with quality control and a plain-language interpretation. Runs as a GUI or from the command line, on one structure or a whole folder. |
+| **Universal Dendrimer Parameterization** (`dendrimer_param_gui_v2.py`) | Prepares Sybyl core/monomer MOL2 files from Avogadro as GAFF2 inputs for UDB, and converts finished GAFF2 dendrimers back to Sybyl MOL2 or PDB. |
+
+Typical workflow: Avogadro (Sybyl MOL2) → Parameterization GUI (GAFF2) → **UDB** build and
+minimisation → UDB Characteriser.
 
 ## Versions and branches
 
